@@ -10,7 +10,7 @@
 		<header>
 			<nav>
 				<ul>
-					<li><a href= "index.php">Menus</a></li>
+					<li><a href= "menu.php">Menus</a></li>
 					<li><a href= "add.php">Add</a></li>
 					<li><a href= "">Contact</a></li>
 					<li><a href= "">About</a></li>
