@@ -1,0 +1,103 @@
+
+body{
+	background: #DCDCDC;
+}
+
+names-container{
+	width: 900px;
+	background-color: #fff;
+	padding: 30px;	
+}
+
+.SearchInput {
+	position: -webkit-sticky;
+  position: sticky;
+  width: 25%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchiconn.jpg');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+.SearchInput {
+		position: -webkit-sticky;
+	  position: sticky;
+	  width: 10px;
+	  box-sizing: border-box;
+	  border: 2px solid #ccc;
+	  border-radius: 4px;
+	  font-size: 16px;
+	  background-color: white;
+	  background-image: url('searchiconn.jpg');
+	  background-position: 10px 10px; 
+	  background-repeat: no-repeat;
+	  padding: 12px 20px 12px 40px;
+}
+
+name-box{
+	padding-bottom:30px;
+	width: 100%;
+}
+
+img{
+	width:150px;
+	height:200px;
+}
+
+img:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.devFormHolder {
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90%;
+	border: 5px ;
+	padding: 8px;
+	margin-right: 2em;
+	margin-left: 2em
+}
+
+.devDataHolder {
+	background:white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90%;
+	border: 5px ;
+	padding: 8px;
+	margin-right: 2em;
+	margin-left: 2em
+}
+
+.devDataFilter{
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  position:relative;
+  right:580px;
+  top:0px
+}
+
+.card {
+	width: 80px;
+	padding: 40px;
+	border: 5px solid #c9c9c9;
+	background: white;
+	margin-right: 1em;
+	margin-left: 1em
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+	
+
