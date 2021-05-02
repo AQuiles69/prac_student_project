@@ -4,18 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="templates/style_index.css" rel="stylesheet" type="text/css">
     <title>Document</title>
 </head>
+
 <body>
     
-<div class="cont-menu">
-    <lu>
-            <li><a href= "menu.html">Menus</a></li>
-            <li><a href= "add.html">Add</a></li>
-            <li><a href= "">Contact</a></li>
-            <li><a href= "">About</a></li>
-    </lu>
-</div>
+    <h2>Dropdown Image</h2>
+    <p>Move the mouse over the image below to open the dropdown content.</p>
+    
+    <div class="cont-dropdown" style="background-color: bisque;">
+        
+        <div class="dropdown">
+                <img src="form_ic.png" alt="Cinque Terre" width="100" height="100">
+            <div class="dropdown-content">
+                <img src="form_ic.png" alt="Cinque Terre" width="200" height="200">
+                <div class="desc">Form #1</div>
+            </div>
+        </div>
 
+        <div class="dropdown">
+            <a href="menu.html">
+            <img src="form_ic.png" alt="Cinque Terre" width="100" height="100">
+            </a>
+            <div class="dropdown-content">
+            <a href="menu.html">
+                <img src="form_ic.png" alt="Cinque Terre" width="300" height="300">
+            </a>
+                <div class="desc">Form #2</div>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <img src="form_ic.png" alt="Cinque Terre" width="100" height="100">
+            <div class="dropdown-content">
+            <a href="#">
+                <img src="form_ic.png" alt="Cinque Terre" width="300" height="300">
+            </a>
+                <div class="desc">Form #3</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="cont-data">
+            Data
+    </div>
+
+    
 </body>
 </html>
